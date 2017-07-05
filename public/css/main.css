@@ -1,0 +1,93 @@
+.new-post{
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+}
+.new-post-header,
+.posts header {
+    margin-bottom: 10px;
+}
+.post .post{
+    padding-left: 10px;
+    border-left: 3px solid #204d74;
+    margin-bottom: 15px;
+}
+.post .post .info{
+    color:#aaa;
+    font-style: italic;
+    margin-bottom: 3px;
+}
+#teal{
+    background-color: #31b0d5;
+}
+::-webkit-scrollbar {
+    width: 4px;
+}
+/* Track */
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background: #3498DB;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.0);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #3498DB;
+}
+.form-control:focus {
+    border-color: #FFFFFFff;
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 255) inset, 0px 0px 8px rgba(255, 255, 255, 255);
+}
+.ScrollStyle
+{
+    max-height: 700px;
+    overflow-y: scroll;
+}
+.panel-heading span
+{
+    margin-top: -20px;
+    font-size: 15px;
+}
+
+.row
+{
+    margin-top: 40px;
+    padding: 0 10px;
+}
+.grid{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.grid span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.grid span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.grid:hover span {
+    padding-right: 25px;
+}
+
+.grid:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.font-family{
+'averta',HelveticaNeue,'Helvetica Neue',Helvetica,Helvetica,Arial,'Lucida Grande',sans-serif;
+}
