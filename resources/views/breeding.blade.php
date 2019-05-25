@@ -5,7 +5,7 @@
             @include('includes.moke')
             <div class="col-md-9 ScrollStyle" style="height: 600px">
                 <div class="card card-default">
-                    <div class="card-header" style="background-color:#4FC3F7;color: white"><h4>Breeding Record</h4>
+                    <div class="card-header" style=" background-color:#4FC3F7;color: white"><h4>Breeding Record</h4>
                         <span>
                             <img src="{{URL::asset('/images/breedings.png')}}" alt="header pic" style="color:black;width: 40px; height: 40px">
                             <img src="{{URL::asset('/images/cow-white.png')}}" alt="header pic" style="color:black;width: 60px; height: 60px">
